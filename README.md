@@ -66,3 +66,9 @@ repo介绍[repo介绍]:(http://duanqz.github.io/2015-06-25-Intro-to-Repo)
   &lt;project path="AndroidCountUpTimerView" name="AndroidCountUpTimerView" /&gt;
 &lt;/manifest&gt;
 </pre></code>
+
+#5、作者联系方式
+
+QQ:1196681436 Weibo:http://www.weibo.com/u/1693069642
+
+欢迎提出意见，提交代码。

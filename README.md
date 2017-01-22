@@ -2,23 +2,35 @@
 
 #1、安装repo
 `mkdir ~/bin`
+
 `export PATH=~/bin:$PATH`
+
 `curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`
+
 `chmod a+x ~/bin/repo`
+
 `brew install gnupg2`
+
 
 #2、下载Android源码
 `repo init -u https//android.googlesource.com/platform/manifest`
+
 `repo init -u https://android.googlesource.com/platform/manifest -b android-4.0.1_r1`
+
 `repo sync`
  
 #3、建立自己的repo:
 写default.xml文件保存到repo项目中，建立repo的github项目，推动xml文件提交
 `repo init -u git@github.com:jackuhan/manifest.git -b master`
+
 `repo sync `
+
 `    IOError: [Errno 2] No such file or directory: /Users/hanjiahu/workplace/myRepo/.repo/manifest.xml'`
+
 复制上文件到.repo/manifest.xml并且改名。
+
 `repo sync #这样就可以下载在整个目录了，含有多个git仓库`
+
 
 <pre><code>Fetching project AndroidCountUpTimerView
 Fetching project FlowlayoutTags

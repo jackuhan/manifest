@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	ignorecase = true
+	precomposeunicode = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+[remote "origin"]
+	url = https://github.com/jackuhan/AndroidCountUpTimerView
+	review = https://github.com/jackuhan/
+	projectname = AndroidCountUpTimerView
+	fetch = +refs/heads/*:refs/remotes/origin/*

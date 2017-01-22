@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	ignorecase = true
+	precomposeunicode = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+[remote "origin"]
+	url = git@github.com:jackuhan/manifest.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "default"]
+	remote = origin
+	merge = refs/heads/master

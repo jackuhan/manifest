@@ -1,0 +1,1 @@
+0000000000000000000000000000000000000000 e23d9897898af1c737848f67ebbed40f593a5a4c hanjiahu <jackuhan@gmail.com> 1485089942 +0800	fetch --progress origin --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master: storing head

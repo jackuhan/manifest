@@ -1,0 +1,29 @@
+{
+  "core.filemode": [
+    "true"
+  ], 
+  "remote.origin.projectname": [
+    "FlowlayoutTags"
+  ], 
+  "core.repositoryformatversion": [
+    "0"
+  ], 
+  "core.ignorecase": [
+    "true"
+  ], 
+  "filter.lfs.smudge": [
+    "git-lfs smudge --skip -- %f"
+  ], 
+  "remote.origin.review": [
+    "https://github.com/jackuhan/"
+  ], 
+  "remote.origin.url": [
+    "https://github.com/jackuhan/FlowlayoutTags"
+  ], 
+  "core.precomposeunicode": [
+    "true"
+  ], 
+  "remote.origin.fetch": [
+    "+refs/heads/*:refs/remotes/origin/*"
+  ]
+}
